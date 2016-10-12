@@ -1,0 +1,26 @@
+h1 {
+  font-family: 'Oswald', sans-serif;
+  color: teal;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  color: teal;
+}
+
+h5 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+  font-family: 'Open Sans Condensed', sans-serif;
+  list-style: none;
+}
+
+a {
+  color: teal;
+}
