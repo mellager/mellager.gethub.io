@@ -1,3 +1,8 @@
+.wrapper {
+  width: 1024px;
+  margin: auto;
+}
+
 h1 {
   font-family: 'Oswald', sans-serif;
   color: teal;
@@ -10,10 +15,14 @@ h3 {
 
 h5 {
   font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  margin-top: 25px;
 }
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
 ul {
@@ -27,7 +36,10 @@ ul {
 
 li {
   float: left;
+  padding-left: 86px;
 }
+
+/*lower padding px as you add more blog posts, 86 padding is for 8 blog posts*/
 
 a {
   display: block;
@@ -36,9 +48,9 @@ a {
   padding: 14px 16px;
   text-decoration: none;
   background-color: white;
+  font-family: 'Oswald', sans-serif;
 }
 
-/* change the link color to #111 (black) on hover */
 li a:hover {
   background-color: lightgray;
 }
@@ -62,4 +74,6 @@ h2 {
    color: white;
    font-family: 'Oswald', sans-serif;
    font-size: 56px;
+   padding-left: 335px;
+   padding-top: 160px;
 }

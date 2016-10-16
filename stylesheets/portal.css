@@ -1,14 +1,44 @@
+.wrapper {
+  width: 1024px;
+  margin: auto;
+}
+
 ul {
   font-family: 'Oswald', sans-serif;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: left;
+  padding-left: 96px;
+}
+
+li a:hover {
+  background-color: lightgray;
+}
+
+.active{
+  background-color: lightgray;
 }
 
 a {
+  display: block;
   color: teal;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+  background-color: white;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 footer {
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer a {
+  text-align: left;
 }
