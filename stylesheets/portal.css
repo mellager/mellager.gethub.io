@@ -3,6 +3,10 @@
   margin: auto;
 }
 
+header {
+  padding-left: 45px;
+}
+
 ul {
   font-family: 'Oswald', sans-serif;
   list-style: none;
@@ -10,19 +14,6 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: white;
-}
-
-li {
-  float: left;
-  padding-left: 96px;
-}
-
-li a:hover {
-  background-color: lightgray;
-}
-
-.active{
-  background-color: lightgray;
 }
 
 a {
@@ -41,4 +32,55 @@ footer {
 
 footer a {
   text-align: left;
+}
+
+
+
+
+
+
+.button {
+  display: inline-block;
+  position: relative;
+  margin-right:-4px;
+}
+
+p {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  line-height: 300px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+#ben {
+  background-color: rgba(63, 160, 160, 0.45);
+}
+
+#band {
+  background-color: rgba(63, 160, 160, 0.45);
+}
+
+#crowd {
+  background-color: rgba(63, 160, 160, 0.45);
+}
+
+a:hover #ben {
+  background-color: rgba(5, 14, 14, 0.35);
+}
+
+a:hover #band {
+  background-color: rgba(5, 14, 14, 0.35);
+}
+
+a:hover #crowd {
+  background-color: rgba(5, 14, 14, 0.35);
 }
