@@ -77,3 +77,11 @@ h2 {
    padding-left: 335px;
    padding-top: 160px;
 }
+
+footer {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer a {
+  text-align: left;
+}
