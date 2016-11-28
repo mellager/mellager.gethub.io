@@ -137,6 +137,12 @@ p {
 
 .arrow-right {
   position: fixed;
-  left: 1065px;
+  left: 1085px;
   top: 400px;
+}
+
+.arrow-left {
+	position: fixed;
+	left: 350px;
+	top: 400px;
 }
