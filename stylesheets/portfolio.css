@@ -93,7 +93,7 @@ header {
 
 /*NAV CSS*/
 .main-nav {
-	width:60px;
+	width:70px;
 	overflow:auto;
 	border:1px solid #fff;
 	display: table-cell;
@@ -180,7 +180,7 @@ main {
 .portfolio-img {
   position: relative;
 	margin-left: 5px;
-	max-width: 95%;
+	max-width: 70%;
 	margin-bottom: 40px;
 }
 
@@ -229,6 +229,7 @@ a {
 
 	.portfolio-img {
 		position: static;
+		width: 85%;
 	}
 
 }
