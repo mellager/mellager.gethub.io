@@ -72,7 +72,7 @@ header {
 }
 
 /* mobile didnt work delete later*/
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 
   header {
     text-align: center;
@@ -111,7 +111,7 @@ header {
 
 .hamburger-nav > img { width:55px; }
 
-@media screen and (max-width: 700px) {
+@media (max-width: 700px) {
 
 
 	.main-nav { display:none;}
@@ -220,7 +220,7 @@ a {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 	article {
 		display: block;
 		margin: auto;
