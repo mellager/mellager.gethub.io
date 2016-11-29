@@ -1,6 +1,7 @@
 .wrapper {
   width: 1024px;
   margin: auto;
+  text-align: center;
 }
 
 header {
@@ -31,9 +32,14 @@ footer {
 }
 
 footer a {
-  text-align: left;
+  text-align: center;
+  margin-top: -40px;
 }
 
+
+a:hover, a:active {
+  color: lightgray;
+}
 
 
 
