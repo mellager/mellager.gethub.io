@@ -61,7 +61,7 @@ table {
 /*START HEADER STYLES*/
 
 header {
-	border:1px solid #f00;
+	border:1px solid #fff;
   padding-top: 50px;
 	float: left;
 	padding-left: 100px;
@@ -72,11 +72,12 @@ header {
 }
 
 /* mobile didnt work delete later*/
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
 
   header {
     text-align: center;
 		padding-left : 0;
+		margin-bottom: 150px;
 
   }
 
@@ -92,9 +93,9 @@ header {
 
 /*NAV CSS*/
 .main-nav {
-	width:300px;
+	width:60px;
 	overflow:auto;
-	border:1px solid #363;
+	border:1px solid #fff;
 	display: table-cell;
 	vertical-align:top;
 }
@@ -104,13 +105,13 @@ header {
 	position:fixed;
 	top:12px;
 	right:12px;
-	border:1px solid #f00;
+	border:1px solid #fff;
 	display:none;
 }
 
-.hamburger-nav > img { width:35px; }
+.hamburger-nav > img { width:55px; }
 
-@media screen and (min-width: 700px) {
+@media screen and (max-width: 700px) {
 
 
 	.main-nav { display:none;}
@@ -123,17 +124,22 @@ header {
 	display:inline;
 	}
 
+	.portfolio-nav img {
+		max-width: 100%;
+		margin-top: 0;
+	}
+
 }
 
 .main-nav ul {
   list-style-type: none;
   margin: 0;
-  padding-left: 55px;
-  padding-top: 60px;
-  width: 200px;
+  padding-left: 50px;
+  padding-top: 40px;
+  width: 175px;
   font-family: 'Josefin Sans', sans-serif;
   float: left;
-	max-width: 80%;
+	max-width: 70%;
 }
 
 li a {
@@ -148,8 +154,12 @@ a:hover, a:active {
   color: lightgray;
 }
 
+/* margin top pulls the image map but fricks it up in mobile view. I tried to do the
+margin-top 0, and 170px margin in the @media but it didnt work pls help */
+
 .portfolio-nav img {
-	max-width: 90%;
+	max-width: 100%;
+	margin-top:-170px;
 }
 
 /* START MAIN STYLES*/
@@ -223,7 +233,7 @@ a {
 
 }
 
-.footer {
+.footer a {
   position: relative;
   right: 0;
   bottom: 0;
@@ -231,4 +241,5 @@ a {
   padding: 4px;
   background-color: white;
   text-align: center;
+	font-size: 10px;
 }
