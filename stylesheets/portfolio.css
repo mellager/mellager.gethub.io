@@ -71,14 +71,13 @@ header {
 	max-width: 25%;
 }
 
-/* mobile didnt work delete later*/
-@media (max-width: 768px) {
+
+@media screen and (min-width:320px) and (max-width:640px) {
 
   header {
     text-align: center;
 		padding-left : 0;
 		margin-bottom: 150px;
-
   }
 
 	.logo-wrapper img{
@@ -111,10 +110,12 @@ header {
 
 .hamburger-nav > img { width:55px; }
 
-@media (max-width: 700px) {
+@media screen and (min-width:320px) and (max-width:640px) {
 
 
-	.main-nav { display:none;}
+	.main-nav {
+		display:none;
+	}
 
 	.main-nav ul {
 		visibility: hidden;
@@ -220,17 +221,21 @@ a {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-@media (max-width: 768px) {
+@media screen and (min-width:320px) and (max-width:640px) {
+
 	article {
 		display: block;
 		margin: auto;
 		text-align: center;
+		max-width: 85%;
 	}
 
 	.portfolio-img {
 		position: static;
 		width: 85%;
+		max-width: 100%;
 	}
+
 
 }
 
