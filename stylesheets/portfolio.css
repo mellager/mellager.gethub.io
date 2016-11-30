@@ -72,7 +72,7 @@ header {
 }
 
 
-@media screen and (max-width:450px) and (max-width:768px) {
+@media screen and (min-width:320px) and (max-width:640px) {
 
   header {
     text-align: center;
@@ -81,7 +81,7 @@ header {
   }
 
 	.logo-wrapper img{
-		max-width: 70%;
+		max-width: 60%;
 	}
 
 }
@@ -110,7 +110,7 @@ header {
 
 .hamburger-nav > img { width:55px; }
 
-@media screen and (max-width:450px) and (max-width:768px) {
+@media screen and (min-width:320px) and (max-width:640px) {
 
 
 	.main-nav {
@@ -221,11 +221,9 @@ a {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-@media screen and (max-width:450px) and (max-width:768px) {
+@media screen and (min-width:320px) and (max-width:640px) {
 
-	body {
-		max-width: 100%;
-	}
+	
 
 	article {
 		display: block;
